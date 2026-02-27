@@ -1,0 +1,50 @@
+/* General page styling */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.8;
+  color: #2c3e50;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #e0f2f1;
+}
+h1, h3 {
+  color: #00796b;
+  text-align: center;
+}
+
+/* Requirement: Center at least one image regardless of viewport width */
+.feature-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 5px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Gallery styling for the remaining images */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 45%;
+  border-radius: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+ul {
+  background-color: #ffffff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: table; /* Centers the list block */
+}
